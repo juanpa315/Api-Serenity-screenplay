@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Validate status code when the user makes GET request with different input data" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-10-19T19:17:43" hostname="PSOFKA01034" time="0.424">
+  <properties/>
+  <testcase name="As a user Juan wants to makes a GET request successfully on the rick and morty API" classname="Validate status code when the user makes GET request with different input data" time="0.424">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889)
+	at net.serenitybdd.screenplay.actors.Stage.theActorInTheSpotlight(Stage.java:39)
+	at net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight(OnStage.java:102)
+	at co.com.sofka.certification.stepDefinitions.GetRequestStepDefinitions.heMakesAGETRequest(GetRequestStepDefinitions.java:35)
+	at ✽.The user makes a GET request(file:///C:/Users/juan.osorio/Documents/juosori/Capacitacion%20moviles/Projects/API_Project/src/test/resources/features/GetRequest.feature:5)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/juan.osorio/Documents/juosori/Capacitacion%20moviles/Projects/API_Project/src/test/resources/features/GetRequest.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+As a user Juan wants to makes a GET request successfully on the rick and morty API(validate-status-code-when-the-user-makes-get-request-with-different-input-data;as-a-user-juan-wants-to-makes-a-get-request-successfully-on-the-rick-and-morty-api)
+--------------------------------------------------------------------------------
+[Test worker] ERROR  - 
+  _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+ |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+   | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+   |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+
+As a user Juan wants to makes a GET request successfully on the rick and morty API
+---------------------------------------------------------------
+[Test worker] ERROR  -     Test failed at step: When The user makes a GET request
+[Test worker] ERROR  -     
+]]></system-err>
+</testsuite>
